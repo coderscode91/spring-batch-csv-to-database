@@ -14,6 +14,14 @@ public class JPAConfig {
 
     private final DataSource dataSource;
 
+//    SELECT * FROM BATCH_JOB_EXECUTION;
+//    SELECT * FROM BATCH_JOB_EXECUTION_CONTEXT;
+//    SELECT * FROM BATCH_JOB_EXECUTION_PARAMS;
+//    SELECT * FROM BATCH_JOB_INSTANCE;
+//    SELECT * FROM BATCH_STEP_EXECUTION ;
+//    SELECT * FROM BATCH_STEP_EXECUTION_CONTEXT ;
+//    SELECT * FROM MOVIE;
+    
     @Autowired
     public JPAConfig(@Qualifier("dataSource") DataSource dataSource) {
         this.dataSource = dataSource;
